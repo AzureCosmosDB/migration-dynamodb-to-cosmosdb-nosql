@@ -34,10 +34,10 @@ except Exception as e:
 
 # Function to generate a random 20-digit customer_id number
 def generate_customer():
-    customer = ''.join(random.choices('0123456789', k=20))
-    if not customer:
-        raise ValueError("Generated PNR number is empty.")
-    return customer
+    id = ''.join(random.choices('0123456789', k=20))
+    if not id:
+        raise ValueError("Generated ID is empty.")
+    return id
 
 # Function to generate sample data
 def generate_sample_data(num_records):

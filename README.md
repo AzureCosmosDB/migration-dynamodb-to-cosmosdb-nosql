@@ -7,9 +7,7 @@ This repository contains artifacts that can be used to execute offline migration
 It has the following artifacts:
 
 1. The Azure Data Factory pipeline template to copy data from S3 to Azure Data Lake Storage.
-2. The Spark notebook to read data from Azure Data Lake Storage and write to Azure Cosmos DB using the Cosmos DB Spark connector. It also demonstrates how to use Microsoft Entra ID authentication to:
-   1. Read data from Azure Data Lake Storage, and
-   2. Write data to Azure Cosmos DB
+2. The Spark notebook to read data from Azure Data Lake Storage and write to Azure Cosmos DB using the Cosmos DB Spark connector (it also demonstrates how to use Microsoft Entra ID authentication).
 
 ![Solution overview](architecture.png)
 
